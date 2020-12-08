@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./img/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .navbar {
+    background-color: transparent;
+    position: -webkit-sticky;
+    position: sticky;
+    position: fixed;
+    top: 0;
+    height: 69px;
+    width: 100%;
+    transition: background.5s;
+  }
+  .navbar.scrolled {
+    background: #ffffff;
+    position: fixed;
+    z-index: 20;
+  }
+  .logo
+  {
+    width: 100px;
+    height: 50px;
+    float: left;
+  }
+  
+  .header-section {
+    width: 100%;
+    height: inherit;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+  }
+  .center-text {
+    width: 100;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+  .main-text1
+{
+    text-align: center;
+    color: #ffffff;
+}
+  .section-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #5b47ff;
+    clip-path: polygon(100% 0%, 100% 50%, 50% 100%, 0% 50%, 0% 0%);
+  }
+  .heading {
+    width: 100%;
+    height: inherit;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+  }
+  .circle-1 {
+    background-color: #11085a;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 30%;
+  }
+  .circle-2 {
+    background-color: #200f79;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 30%;
+  }
+  .circle-3 {
+    background-color: rgb(72, 24, 83);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 30%;
+  }
+  .header-2-section {
+    margin-top: 100px;
+  }
+  .circle-span {
+    color: #ffffff;
+    font-size: 24px;
+    display: block;
+    font-weight: 700;
+  }
+  .select-li {
+    background-color: #ffffff;
+    padding: 4%;
+    border-radius: 10px;
+  }
+  .unselect-li-1 {
+    padding: 1%;
+  }
+  .li-1 {
+    margin-right: 160px;
+    color: #ffffff;
+  
+    font-size: 18px;
+  }
+  .li-1-2 {
+    margin-right: 135px;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 12px;
+  }
+  .li-2 {
+    margin-right: 130px;
+    color: #5b47ff;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .desciption {
+    transform: translate(0px, 0px);
+    opacity: 1;
+    line-height: 1.15;
+    color: #ffffff;
+    font-size: calc(20.6087px + 0.43478vw);
+  }
+  .setion-3 {
+    background-color: #e9e6f1;
+  }
+  .section-header {
+    color: #5b47ff;
+  }
+  .card {
+    width: 70% !important;
+    margin-left: 20% !important;
+    border-radius: 10px !important;
+    height: 200px !important;
+  }
+  .flag-img {
+    display: block;
+    height: 75px;
+    width: 75px;
+    margin-bottom: 30px;
+  }
+  .section-main-header-2 {
+    color: #5b47ff;
+  }
+  .section-main-header {
+    color: pink;
+  }
+  .btn-start {
+    box-shadow: 0 14px 34px #5b47ff;
+    border-color: #5b47ff;
+    background-color: #6932d4;
+    color: #fff;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .btn-contact {
+    box-shadow: 0 14px 34px #ffffff;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-left: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .circle {
+      height: 100px;
+      width: 100px;
+      margin-left: 23%;
+    }
+  }
+  .movement-text {
+    background-color: #5b47ff;
+    color: #ffffff;
+    flex-direction: row-reverse;
+    height: 300px;
+  }
+  .bg-light {
+    background-color: #5b47ff !important;
+  }
+
+  .card {
+    width: 50% !important;
+    margin-left: 20% !important;
+    border-radius: 10px !important;
+    height: 200px !important;
+  }
+    
